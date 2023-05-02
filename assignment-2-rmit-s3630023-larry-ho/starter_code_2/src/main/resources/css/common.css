@@ -1,0 +1,143 @@
+/* -----------------------
+Base styles
+------------------------*/
+
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #000000;
+	background-color: #ffffff;
+	font: 1em/1.2 "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+.form-group {
+    border: 2px solid;
+    margin: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+	padding: 10px;
+}
+.form-control{
+	width: 100%;
+	margin: 0px auto;
+
+	min-height: 30px;
+}
+.login-group {
+	position: relative;
+	width: 200px;
+	height: 150px;
+	border: 3px solid rgb(105, 102, 102);
+}
+.search-group {
+	border: 10px solid rgb(0, 0, 0);
+	width: 300px;
+	height: 400px;  
+}
+#search {
+	width: 50%;
+	margin:auto;
+	border: 10px solid rgb(0, 0, 0);
+	padding: 10px;
+}
+.searchrow {
+	justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+label {
+
+}
+h1 {
+	text-align: center;
+}
+h2 {
+	margin: 10px;
+}
+.login-group {
+	padding:10px;
+	margin:5px;
+}
+#amenities_list {
+	padding: 2px;
+}
+.btn-primary{
+	margin: 0;
+	height: 50px;
+	width:100%;
+	border-radius: 10px;
+	color:white;
+	background-color:crimson;
+	font-weight:bold;
+	margin-top: 10px;
+}
+.submit_button{
+	margin: 0;
+	text-align: center;
+	padding:10px;
+}
+.logo {
+	text-align: center;
+	padding: 5px;
+	margin: 10px;
+}
+#airbnb {
+	width:500px;
+	height:120px;
+}
+.search-result {
+    border: 2px solid;
+    margin: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+	padding: 10px;	
+	height:300px;
+	width:200px;
+}
+.search-results-div {
+	margin: 20px;
+	border:10px solid black;
+	padding: 10px;
+	width: 100%;
+	height: 400px;
+	justify-content:space-evenly;
+    display: flex;
+}
+#accommodation {
+	margin: 20px;
+}
+#accommodation-image-div {
+	text-align: center;
+}
+#accommodation-image {
+	width:600px;
+	height:400px;
+}
+#amenities-list {
+	width: 50%
+}
+#review-div {
+
+}
+.reviews {
+	margin: 20px;
+	border:10px solid black;
+	padding: 10px;
+}
+#modify-review {
+	margin:20px;
+}
+#page-number {
+	border: 10px solid rgb(0, 0, 0);
+	width: 300px;
+	height: 400px;
+}
+#select-page {
+	width: 100px;
+	margin:auto;
+	padding: 10px;
+}
+#pageno_textbox {
+	width: 50px;
+	text-align: center;
+}

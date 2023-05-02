@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <title th:text="${title}"></title>
+
+   <link rel="stylesheet" type="text/css" href="common.css" />
+</head>
+
+<body>
+   User:<div th:text="${USER}"></div>
+   <h1 th:text="${title}"></h1>
+
+   <p>
+      Return to Homepage:
+      <a href='/'>Link to Homepage</a>
+   </p>
+
+   <form action='/page3.html' method='post'>
+      <div class='form-group'>
+         <label for='accomodates_drop'>Select the type Movie Type (Dropdown):</label>
+         <select id='accomodates_drop' name='accomodates_drop'>
+            <!-- This is where the movies types are populated -->
+            <option th:each="accomodate : ${accomodates}" th:text="${accomodate}"></option>
+
+         </select>
+      </div>
+      <div class='form-group'>
+         <label for='accomodates_textbox'>Select the type Movie Type (Textbox)</label>
+         <input class='form-control' id='accomodates_textbox' name='accomodates_textbox'>
+      </div>
+      <button type='submit' class='btn btn-primary'>Submit</button>
+   </form>
+
+   <!-- Display movies. Use check of the size of the array list to optionally show the UL -->
+   <h2 th:text="${title_drop}"></h2>
+   <ul th:if="${#lists.size(properties_drop) > 0}">
+      <li th:each="property : ${properties_drop}" th:text="${property}"></li>
+   </ul>
+
+   <!-- Display movies. Use check of the size of the array list to optionally show the UL -->
+   <h2 th:text="${title_text}"></h2>
+   <ul th:if="${#lists.size(properties_text) > 0}">
+      <li th:each="property : ${properties_text}" th:text="${property}"></li>
+   </ul>
+
+
+</body>
+
+</html>

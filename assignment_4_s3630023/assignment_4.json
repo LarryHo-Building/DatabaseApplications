@@ -1,0 +1,137 @@
+[
+    {
+        "itemid" : 1 ,
+        "description" : "New Metallic Toy rocket",
+        "startdate" : {"$date" : "2021-01-01T23:25:00.000Z"},
+        "enddate" : {"$date" : "2021-02-01T23:25:00.000Z"},
+        "category" : [
+            {  
+                "title" : "Toys",
+                "sub_title" : "Diecast"
+            }
+        ],
+        "seller" : {
+            "username" : "Buzz",
+            "address" : "234 Elm Street, Anaheim, CA, USA",
+            "businessno" : 123456,
+            "businessaddress" : "1313 South Harbor Boulevard, Anaheim, CA, USA"
+        }
+    },
+    {
+        "itemid" : 2 ,
+        "description" : "New copy of Twilight",
+        "startdate" : {"$date" : "2021-03-03T11:40:00.000Z"},
+        "enddate" : {"$date" : "2021-03-10T11:40:00.000Z"},
+        "category" : [
+            {
+                "title": "Book",
+                "sub_title": "Fiction"
+            }
+        ],
+        "seller" : {
+            "username" : "Buzz",
+            "address" : "234 Elm Street, Anaheim, CA, USA",
+            "businessno" : 123456,
+            "businessaddress" : "1313 South Harbor Boulevard, Anaheim, CA, USA"
+        }
+    },
+    {   
+        "itemid" : 3,
+        "description" : "Used Robot arm",
+        "startdate" : {"$date": "2021-03-22T15:30:00.000Z"},
+        "enddate" : {"$date": "2021-04-21T15:30:00.000Z"},
+        "category" : [
+            { 
+                "title" : "Electronics",
+                "sub_title" : "Robotics"
+            }
+        ],
+        "buyers": [
+            {
+                "username" : "JackD",
+                "address" : "30 Rockefellar Plaza, New York, NY, USA",
+                "bidno" : 1,
+                "amount" : 10.20,
+                "date" : {"$date" : "2021-04-01T10:30:00.000Z"}
+            },
+            {
+                "username" : "BillyBob",
+                "address" : "123 Fake St, Melbourne, VIC, Australia",
+                "bidno" : 2,
+                "amount" : 10.30,
+                "date" : {"$date" : "2021-04-01T13:30:10.000Z"}
+            },
+            {
+                "username" : "JackD",
+                "address" : "30 Rockefellar Plaza, New York, NY, USA",
+                "bidno" : 3,
+                "amount" : 100.30,
+                "date" : {"$date" : "2021-04-02T14:30:10.000Z"}
+            }
+        ],
+        "feedback" : {
+            "rating" : 5,
+            "comments" : "Excellent service and delivery",
+            "buyer_username": "JackD"
+        },
+        "seller" : {
+            "username" : "Johnny5",
+            "address" : "200 Station St, Sydney, NSW, Australia"
+        }
+    },
+    {
+        "itemid" : 4,
+        "description": "Used Climbing Harness",
+        "startdate" : {"$date" : "2021-04-01T12:25:10.000Z"},
+        "enddate" : {"$date" : "2021-05-01T12:25:10.000Z"},
+        "category" : [
+            {
+                "title" : "Sports and Fitness",
+                "sub_title" : "Outdoor Equipment"
+            },
+            {
+                "title" : "Outdoor Equipment",
+                "sub_title" : "Climbing Equipment" 
+            },
+            {
+                "title" : "Outdoor Equipment",
+                "sub_title": "Safety Equipment"
+            }
+        ],
+        "buyers": [
+            {
+                "username" : "JackD",
+                "address" : "30 Rockefellar Plaza, New York, NY, USA",
+                "bidno" : 1,
+                "amount" : 20.10,
+                "date" : {"$date" : "2021-04-20T10:15:20.000Z"}
+            }
+        ],
+        "seller" : {
+            "username" : "LaraC",
+            "address" : "55 Ashbourne Rd, Derby, UK"
+        }
+    },
+    {
+        "buyers": [
+            {
+                "username": "DannyB",
+                "address": "22 Full Crt, Frankston, VIC, Australia"
+            }
+        ] 
+    },
+    {
+        "seller": {
+            "username" : "HomerS",
+            "address" : "742 Evergreen Terr, Springfield, OR, USA",
+            "businessno" : 55555,
+            "businessaddress" : "10201 Pico Blvd, Los Angeles, CA, USA"
+        }
+    },
+    {
+        "seller": {
+            "username" : "StewieG",
+            "address" : "31 Spooner Street, Quahog, RI, USA"
+        }
+    }
+]
